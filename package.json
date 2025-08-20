@@ -36,7 +36,7 @@
       "dist/credentials/LiteLLMApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/LiteLLM/LiteLLM.node.js"
+      "dist/nodes/LiteLLM/LiteLlm.node.js"
     ]
   },
   "devDependencies": {

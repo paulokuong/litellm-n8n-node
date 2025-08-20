@@ -3,6 +3,7 @@ import { ICredentialType, INodeProperties } from 'n8n-workflow';
 export class LiteLLMApi implements ICredentialType {
 	name = 'liteLLMApi';
 	displayName = 'LiteLLM API';
+	documentationUrl = 'https://docs.litellm.ai/docs/';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Base URL',

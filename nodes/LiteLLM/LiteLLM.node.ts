@@ -4,7 +4,7 @@ import { litellmFields, litellmOperations } from './LiteLLMDescription';
 export class LiteLLM implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'LiteLLM',
-		name: 'liteLLM',
+		name: 'liteLlm',
 		icon: { light: 'file:litellm.svg', dark: 'file:litellm.svg' },
 		group: ['transform'],
 		version: 1,

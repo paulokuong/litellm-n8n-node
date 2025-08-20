@@ -75,7 +75,6 @@ const acompletionOperation: INodeProperties[] = [
 		name: 'tools',
 		type: 'json',
 		default: '[]',
-		required: false,
 		description: 'The tools to use for the completion',
 		displayOptions: {
 			show: {
