@@ -5,7 +5,6 @@ export class LiteLLM implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'LiteLLM',
 		name: 'liteLlm',
-		icon: { light: 'file:litellm.svg', dark: 'file:litellm.svg' },
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
